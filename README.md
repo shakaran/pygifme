@@ -111,4 +111,4 @@ From [@holman](https://twitter.com/holman). Zach Holman loves you.
 
 ## About
 
-Mantainer [@shakaran](https://twitter.com/shakaran).
+Mantainer [@shakaran87](https://twitter.com/shakaran87).
