@@ -32,7 +32,7 @@ def main():
                    EX_USAGE, EX_DATAERR, EX_CONFIG, EX_CANTCREAT
     from time import gmtime, strftime
     from sys import exit, path as spath
-    from argparse import ArgumentParser, ONE_OR_MORE, HelpFormatter
+    from argparse import ArgumentParser, ONE_OR_MORE, ArgumentDefaultsHelpFormatter
     from argcomplete import autocomplete
     
     # Avoid problems with /usr/local/bin first in sys.path
@@ -54,7 +54,7 @@ def main():
                              description           = description,
                              epilog                = None,
                              parents               = [],
-                             formatter_class       = HelpFormatter,
+                             formatter_class       = ArgumentDefaultsHelpFormatter,
                              prefix_chars          = '-',
                              fromfile_prefix_chars = None,
                              argument_default      = None,
@@ -93,7 +93,7 @@ def main():
                         default        = 20,
                         type           = int,
                         choices        = None,
-                        help           = 'Set the delay between frames (default: 20)')
+                        help           = 'Set the delay between frames')
     
     parser.add_argument('-w', '--width',
                         action         = 'store',
@@ -102,7 +102,7 @@ def main():
                         default        = 500,
                         type           = int,
                         choices        = None,
-                        help           = 'Set the width of the image (default: 500px)')
+                        help           = 'Set the width of the image')
     
     parser.add_argument('-q', '--quiet',
                         action         = 'store_true',
