@@ -1,0 +1,10 @@
+include AUTHORS.rst
+include CHANGELOG.rst
+include LICENSE
+include README.md
+include MANIFEST.in
+include setup.py
+include pygifme.py
+include test.py
+include test/*.jpg
+include bin/pygifme
