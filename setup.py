@@ -68,11 +68,18 @@ __data_files__ = [
                  ]
 
 try:
+    import os
+
     from distutils.core import setup
     from distutils.core import Command
     
     from unittest import TestLoader, TextTestRunner
     from doctest import DocTestSuite
+    
+    # remove MANIFEST. distutils doesn't properly update it when the
+    # contents of directories change.
+    if os.path.exists('MANIFEST'): 
+        os.remove('MANIFEST')
     
     class Test(Command):
         description = 'run unit tests and doc tests'
