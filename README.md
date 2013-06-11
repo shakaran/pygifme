@@ -4,6 +4,12 @@
 
 [![Travis status build](https://secure.travis-ci.org/shakaran/pygifme.png?branch=master)](http://travis-ci.org/shakaran/pygifme)
 
+[![Coverage status](https://coveralls.io/repos/shakaran/pygifme/badge.png?branch=master)](https://coveralls.io/repos/shakaran/pygifme/badge.png?branch=master)
+
+[![Pypi status](https://pypip.in/v/pygifme/badge.png)](https://pypip.in/v/pygifme/badge.png)
+
+[![Crate status](https://crate.io/packages/pygifme)](https://crate.io/packages/pygifme)
+    
 ## Fucking animations. You need them.
 
 pygifme is a simple command line tool to generate animated GIFs. It is a python port from the original ruby script gifme created by [@holman](https://twitter.com/holman)
