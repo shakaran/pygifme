@@ -2,6 +2,8 @@
 
 ![pug](http://f.cl.ly/items/0T0f2w2C2z3T343w0u37/pug.gif)
 
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
 [![Travis status build](https://secure.travis-ci.org/shakaran/pygifme.png?branch=master)](http://travis-ci.org/shakaran/pygifme)
 
 [![Coverage status](https://coveralls.io/repos/shakaran/pygifme/badge.png?branch=master)](https://coveralls.io/repos/shakaran/pygifme/badge.png?branch=master)
