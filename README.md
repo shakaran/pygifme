@@ -120,3 +120,5 @@ From [@holman](https://twitter.com/holman). Zach Holman loves you.
 ## About
 
 Mantainer [@shakaran87](https://twitter.com/shakaran87).
+
+[![Buy me a coffee](https://i.imgur.com/Sk4LFzF.png)](https://www.paypal.me/quijost/3)
